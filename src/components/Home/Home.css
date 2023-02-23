@@ -1,0 +1,91 @@
+.app {
+    background-image: url(../../images/pizza-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.app .container .overly {
+    position: absolute;
+    background-color: rgb(0 0 0 / 50%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.app .container .text-info {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+    z-index: 2;
+}
+.app .container .logo {
+    width: 22%;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+
+}
+.app .container .text {
+    width: 40%;
+    text-align: end;
+    padding-right: 50px;
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.app .container .text span {
+    margin: 0 15px 0 0;
+    font-size: 17px;
+}
+.app .container .text svg {
+    font-size: 20px;
+    margin-top: 7px;
+}
+.app .container .heading {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 10%;
+}
+.app .container .heading h1 {
+    /* font-size: clamp(2.5rem,10vw,5rem); */
+    font-size: 60px;
+    margin-bottom: 1rem;
+    box-shadow: 3px 5px #e9ba23;
+    -webkit-letter-spacing: 3px;
+    -moz-letter-spacing: 3px;
+    -ms-letter-spacing: 3px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 1;
+}
+.app .container .heading h4 {
+    font-size: 22px;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.app .container .heading .btn {
+    font-size: 20px;
+    padding: 0.4rem 2rem;
+    border: none;
+    border-radius: 5px;
+    background: #e31837;
+    color: #fff;
+    -webkit-transition: 0.2s ease-out;
+    transition: 0.2s ease-out;
+    font-weight: 600 !important;
+    cursor: pointer;
+}
+.app .container .heading .btn:hover {
+    font-size: 20px;
+    background-color: #e9ba23;
+    color: #000;
+    font-weight: 600 !important;
+}
